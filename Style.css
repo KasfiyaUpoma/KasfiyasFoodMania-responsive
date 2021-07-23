@@ -11,8 +11,8 @@ body{
     font-family:"Exo";
     font-size:2.5rem;
     text-align:center;
-    padding-bottom: 30px;
-    padding-top: 100px;
+    padding-bottom: 4%;
+    padding-top: 8%;
     text-decoration: underline;
 }
 .secheadhome{
@@ -23,6 +23,7 @@ body{
     padding-top: 70px;
     text-decoration: underline;
 }
+
 html{
 scroll-behavior: smooth;
 }
@@ -315,6 +316,8 @@ animation-delay: 300ms;
     }
         .aboutcontainer{
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         #pic1{
             justify-content: center;
@@ -322,6 +325,11 @@ animation-delay: 300ms;
         #intro1{
             justify-content: center;
             align-items: center;
+        }
+    }
+    @media (max-width:520px) {
+        #intro1{
+            padding-top: 15px;
         }
     }
 #about h2{
