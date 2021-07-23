@@ -1,0 +1,62 @@
+#pic img{
+    width: 320px;
+    height: 240px;
+}
+#sitename{
+    height: 150px;
+    background:url(images/C1.png) no-repeat;
+    font-size: 2rem;
+    padding-top: 55px ;
+}
+.sechead{
+    font-size: 1.8rem;
+    padding-top: 30px;
+}
+.secheadhome{
+    font-size: 1.8rem;
+}
+
+#pic1 img{
+    width: 300px;
+    height: 230px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+#intro p{
+    font-size: 14px;
+}
+#intro1 p{
+    font-size: 14px;
+}
+#services{
+    padding-top: 30px;
+}
+#items{
+    padding-top: 30px;
+}
+#Register{
+    padding-top: 30px;
+}
+.half-width h2{
+    font-size: 25px;
+}
+.half-width p{
+    font-size: 14px;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 14px;
+}
+optgroup{
+    font-size: 14px;
+}
+.button{
+    padding: 10px 40px;
+    font-size: 1rem;
+}
+.exp{
+    padding: 10px 40px;
+    font-size: 1rem;
+}
