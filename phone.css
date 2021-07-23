@@ -66,3 +66,7 @@ optgroup{
 .img{
     width: 90%;
 }
+.fab, .fas{
+    padding: 10px 15px;
+    font-size: 1.8em;
+}
