@@ -445,10 +445,16 @@ p{
     p{
         font-size: .8rem;
     }
+    .img{
+        width: 98%;
+    }
 }
 @media (max-width:925px){
     .grid{
         grid-template-columns: repeat(3, 1fr);
+    }
+    .img{
+        width: 95%;
     }
     h3{
         font-size: 1rem;
@@ -466,6 +472,9 @@ p{
     }
     p{
         font-size: 1.2rem;
+    }
+    .img{
+        width: 95%;
     }
 }
     @media (max-width:670px){
@@ -535,7 +544,7 @@ p{
         grid-template-columns: repeat(1, 1fr);
     }
     .box{
-        width: 70%;
+        width: 90%;
     }
 }
 
