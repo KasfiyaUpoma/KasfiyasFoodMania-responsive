@@ -1,0 +1,50 @@
+<div class="grid">
+            <div class="img">
+            <div class="imageframe">
+                <img src="images/Tom.jpg" alt="TomYum Soup">
+            </div>
+            <p>Menu-01</p>
+            <h3><span class="color">Spicy Tom</span>Yum Soup</h3>
+            <a href="mailto:kasfiyarabbinnoor.7509@gmail.com">Order</a>
+            </div>
+            <div class="img">
+                <div class="imageframe">
+                    <img src="images/Soup.jpg" alt="Basil Tomato Soup Image">
+                </div>
+                <p>Menu-02</p>
+                <h3><span class="color1">Basil</span> <span class="color">Tomato</span>  Soup</h3>
+                <a href="mailto:kasfiyarabbinnoor.7509@gmail.com">Order</a>
+            </div>
+            <div class="img">
+                <div class="imageframe">
+                    <img src="images/Thi.jpg" alt="Pumpkin Soup Image">
+                </div>
+                <p>Menu-03</p> 
+                <h3><span class="color3">Pumpkin</span> Soup</h3>
+                <a href="mailto:kasfiyarabbinnoor.7509@gmail.com">Order</a>
+            </div>
+            <div class="img">
+            <div class="imageframe">
+                <img src="images/FriedRice.jpg" alt="Fried Rice">
+            </div>
+            <p>Menu-04</p>
+            <h3><span class="color5">Fried</span><span class="color4"> Rice</span></h3>
+            <a href="mailto:kasfiyarabbinnoor.7509@gmail.com">Order</a>
+            </div>
+            <div class="img">
+                <div class="imageframe">
+                    <img src="images/Soup.jpg" alt="Basil Tomato Soup Image">
+                </div>
+                <p>Menu-05</p>
+                <h3><span class="color1">Basil</span> <span class="color">Tomato</span>  Soup</h3>
+                <a href="mailto:kasfiyarabbinnoor.7509@gmail.com">Order</a>
+            </div>
+            <div class="img">
+                <div class="imageframe">
+                    <img src="images/chilli.jpg" alt="Chilli Chicken Image">
+                </div>
+                <p>Menu-06</p> 
+                <h3><span class="color">Chilli</span> Chicken</h3>
+                <a href="mailto:kasfiyarabbinnoor.7509@gmail.com">Order</a>
+            </div>
+        </div>
