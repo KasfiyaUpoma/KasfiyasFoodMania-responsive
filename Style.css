@@ -80,10 +80,10 @@ padding: 0;
 margin: 0;
 transition: 1s;
 }
-nav li a{ 
+nav li a:-webkit-any-link{ 
 transition: 2s;
 }
-.fa-angle-down{
+li>a:-webkit-any-link>.fa-angle-down{
     color: #185ADB;
 }
 .items:hover .fa-angle-down{
@@ -219,7 +219,7 @@ animation-delay: 300ms;
        nav>ul>li{
            font-size: .9rem;
        }
-       li>a>.fa-angle-down{
+       li>a:-webkit-any-link>.fa-angle-down{
         font-size: .9rem;
         padding: 0px;
     }
@@ -231,7 +231,7 @@ animation-delay: 300ms;
        nav>ul>li{
            font-size: .9rem;
        }
-       li>a>.fa-angle-down{
+       li>a:-webkit-any-link>.fa-angle-down{
            font-size: .9rem;
            padding: 0px;
        }
@@ -245,7 +245,7 @@ animation-delay: 300ms;
            height: 30px;
            line-height: 30px;
        }
-       li>a>.fa-angle-down{
+       li>a:-webkit-any-link>.fa-angle-down{
         font-size: .8rem;
         padding: 0px;
     }
@@ -259,7 +259,7 @@ animation-delay: 300ms;
            height: 30px;
            line-height: 30px;
        }
-       li>a>.fa-angle-down{
+       li>a:-webkit-any-link>.fa-angle-down{
         font-size: .7rem;
         padding: 0px;
     }
