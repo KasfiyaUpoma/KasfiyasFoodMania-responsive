@@ -607,8 +607,9 @@ footer{
     color: #eee;
 }
 #log{
-    left: 445px;
+    left: 480px;
     position: relative;
+    padding-top: 12%;
 }
 .inline{
     display: flex;
