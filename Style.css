@@ -627,8 +627,18 @@ footer{
 }
 /* Media Query */
 @media (max-width:390px){
-    #fi{
+    #form-i{
         font-size: 28px;
+        padding: 0 14px;
+    }
+    input{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+        height: 32px;
+        font-size: 14px;
+        padding: 2px 4px;
     }
     .button-box{
         height: 35px;
