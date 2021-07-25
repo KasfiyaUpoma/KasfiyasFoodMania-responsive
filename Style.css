@@ -571,7 +571,7 @@ select {
 }
 .Owner{
     margin-bottom: 10px;
-    margin-top: 0;
+    margin-top: 20px;
 }
 #a{
     height: 180px;
@@ -592,7 +592,7 @@ select {
     justify-content: center;
 }
 .login{
-    padding-top: 360px;
+    padding-top: 380px;
 }
 
 footer{
@@ -602,8 +602,8 @@ footer{
     background-color: black;
 }
 #foi{
-    padding: 10px 50px;
-    font-size: 2.5rem;
+    padding: 10px 20px;
+    font-size: 1.5rem;
     color: #eee;
 }
 #log{
@@ -618,7 +618,41 @@ footer{
     left: 40px;
     right: 40px;
 }
+.reg{
+    padding-top: 48px;
+}
 /* Media Query */
+@media (max-width:390px){
+    #fi{
+        font-size: 28px;
+    }
+    .button-box{
+        height: 35px;
+    }
+    .toggle-btn{
+        font-size: .9rem;
+    }
+    .check-box{
+        height: 9px;
+        width: 9px;
+    }
+    .cbtxt{
+        font-size: 14px;
+    }
+    .submit-btn{
+        font-size: 1rem;
+    }
+    input{
+        height: 32px;
+    }
+    option{
+        height: 32px;
+        font-size: 12;
+    }
+    #log{
+        padding-top: 90px;
+    }
+}
 @media (max-width:1100px){
     .half-width{
         padding-top: 0px;
@@ -662,6 +696,12 @@ footer{
     }
 }
 @media (max-width:810px){
+    .form-box{
+        width: 82%;
+    }
+    optgroup{
+        width: 70%;
+    }
     .register{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -709,9 +749,9 @@ footer{
     button{
         font-size: 14px;
     }
-    .fab, .fas{
+    footer>.fab, .fas{
         padding: 10px 10px;
-        font-size: 1.8em;
+        font-size: .5rem;
     }
 }
 @media (max-width:895px){
