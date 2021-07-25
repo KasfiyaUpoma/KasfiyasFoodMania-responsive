@@ -144,39 +144,43 @@
     <h1 class="sechead">Register</h1>
     <div class="register">
     <div class="half-width" id="a">
-        <div class="form-box">
-            <div class="button-box">
-                <div id="btn"></div>
-                <button type="button" class="toggle-btn">Register</button>
-                <button type="button" class="toggle-btn">Login</button>
+        <div class="boxcontainer">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <div class="inline">
+                        <button type="button" class="toggle-btn" onclick="reg()">Register</button>
+                    <button type="button" class="toggle-btn" onclick="log()">Log In</button>
+                    </div>
+                </div>
+                <form id="reg" class="input-group">
+                    <h2><a href="#"><i class="fab fa-google" id="fi"></i></a><a href="#"><i class="fab fa-twitter" id="fi"></i></a><a href="#"><i class="fab fa-facebook" id="fi"></i></a></h2><br>
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="date" placeholder="Enter Your Date of Birth"required>                
+                    <select>
+                        <optgroup>
+                        <option>Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                        </optgroup>
+                    </select>
+                    <input type="password" placeholder="Enter Password"required>
+                    <input type="password" placeholder="Retype Password"required>
+                    <button id="sbtn" class="submit-btn" type="submit">REGISTER</button><br>
+                    <input type="checkbox" class="check-box"required>&nbsp;<span class="cbtxt">I agree to terms and conditions</span>
+                </form>
+                <form id="log" class="input-group">
+                    <h2><a href="#"><i class="fab fa-google" id="fi"></i></a><a href="#"><i class="fab fa-twitter" id="fi"></i></a><a href="#"><i class="fab fa-facebook" id="fi"></i></a></h2><br>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="password" placeholder="Enter Password"required>
+                    <button id="sbtn" class="submit-btn" type="submit">Login</button><br>
+                    <input type="checkbox" class="check-box"required>&nbsp;<span class="cbtxt">Remember me</span><br>
+                    <a href="#" class="cbtxt">Forgotten Password?</a>
+    
+                </form>
             </div>
-            <form id="reg" class="input-group">
-                <h2><a href="#"><i class="fab fa-google" id="fi"></i></a><a href="#"><i class="fab fa-twitter" id="fi"></i></a><a href="#"><i class="fab fa-facebook" id="fi"></i></a></h2><br>
-                <input type="text" placeholder="Enter Your Name" required>
-                <input type="email" placeholder="Enter Your Email" required>
-                <input type="date" placeholder="Enter Your Date of Birth"required>                
-                <select>
-                    <optgroup>
-                    <option>Gender</option>
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>Others</option>
-                    </optgroup>
-                </select>
-                <input type="password" placeholder="Enter Password"required>
-                <input type="password" placeholder="Retype Password"required>
-                <button class="submit-btn" type="submit">REGISTER</button><br>
-                <input type="checkbox" class="check-box"required>&nbsp;<span class="cbtxt">I agree to terms and conditions</span>
-            </form>
-            <form id="log" class="input-group">
-                <h2><a href="#"><i class="fab fa-google" id="fi"></i></a><a href="#"><i class="fab fa-twitter" id="fi"></i></a><a href="#"><i class="fab fa-facebook" id="fi"></i></a></h2><br>
-                <input type="email" placeholder="Enter Your Email" required>
-                <input type="password" placeholder="Enter Password"required>
-                <button class="submit-btn" type="submit">Login</button><br>
-                <input type="checkbox" class="check-box"required>&nbsp;<span class="cbtxt">Remember me</span><br>
-                <a href="#" class="cbtxt">Forgotten Password?</a>
-
-            </form>
         </div>
     </div>
         <div class="join">
@@ -201,6 +205,23 @@
     <a href="http://www.instagram.com/kasfiya.upoma" target="blank"><i class="fab fa-instagram" id="foi"  ></i></a>
     <a href="mailto:kasfiyarabbinnoor.7509@gmail.com" target="blank"><i class="fas fa-hamburger"id="foi"  ></i></a>
 </footer>
+<script>
+    var x= document.getElementById("reg")
+    var y= document.getElementById("log")
+    var z= document.getElementById("btn")
 
+    function log(){
+        x.style.left="-630px";
+        x.style.right="630px";
+        y.style.left="10px";
+        z.style.left="125px";
+    }
+    function reg(){
+        x.style.left="30px";
+        x.style.right="30px";
+        y.style.left="480px";
+        z.style.left="0px";
+    }
+</script>
 </body>
 </html>
