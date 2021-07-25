@@ -145,11 +145,15 @@
     <div class="register">
     <div class="half-width" id="a">
         <div class="form-box">
-            <form>
-                <h2>Join Our Community</h2><br>
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn">Register</button>
+                <button type="button" class="toggle-btn">Login</button>
+            </div>
+            <form class="input-group">
+                <h2><a href="#"><i class="fab fa-google" id="fi"></i></a><a href="#"><i class="fab fa-twitter" id="fi"></i></a><a href="#"><i class="fab fa-facebook" id="fi"></i></a></h2><br>
                 <input type="text" placeholder="Enter Your Name" required>
                 <input type="email" placeholder="Enter Your Email" required>
-                <input type="tel" placeholder="Enter Your Number"required>
                 <input type="date" placeholder="Enter Your Date of Birth"required>                
                 <select>
                     <optgroup>
@@ -160,7 +164,16 @@
                     </optgroup>
                 </select>
                 <input type="password" placeholder="Enter Password"required>
-                <button type="submit">REGISTER</button>
+                <input type="password" placeholder="Retype Password"required>
+                <button class="submit-btn" type="submit">REGISTER</button><br>
+                <input type="checkbox" class="check-box"required>&nbsp;<span class="cbtxt">I agree to terms and conditions</span>
+            </form>
+            <form class="input-group">
+                <h2><a href="#"><i class="fab fa-google" id="fi"></i></a><a href="#"><i class="fab fa-twitter" id="fi"></i></a><a href="#"><i class="fab fa-facebook" id="fi"></i></a></h2><br>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="password" placeholder="Enter Password"required>
+                <button class="submit-btn" type="submit">Login</button>
+                <!-- <input type="checkbox" class="check-box"required><span>I agree to terms and conditiond</span> -->
             </form>
         </div>
     </div>
@@ -169,22 +182,22 @@
         <p>Fill the Form and Register. After Confirmation you can Join our community and order food. You can get verious kind of dishes including Bengali, Chinese, Japanese, Indian, Bevareges, Fast Food, Snacks etc.</p><br>
         </div>
         <div class="login">
-            Have account? <a href="#">Login</a>
+            <!-- Have account? <a href="#">Login</a> -->
         </div>
         <div class="half-width">
-        <img src="images/M.png" alt="Owner" style="width: 200px; height: 200px;"><br>
+        <img src="images/M.png" alt="Owner" style="width: 200px; height: 200px;" class="Owner"><br>
         <h2>Office</h2>
-        <p>Address: Wari, Dhaka<br>Phone: +88012345678910<br>Email: kfm@gmail.com</p>
+        <p class="address">Address: Wari, Dhaka<br>Phone: +88012345678910<br>Email: kfm@gmail.com</p>
     </div>
 </div>
 </section>
 
 
 <footer>
-    <a href="http://www.twitter.com/KasfiyaUpoma" target="blank"><i class="fab fa-twitter"></i></a>
-    <a href="http://www.facebook.com/Kasfiya.Upoma" target="blank"><i class="fab fa-facebook"></i></a>
-    <a href="http://www.instagram.com/kasfiya.upoma" target="blank"><i class="fab fa-instagram"></i></a>
-    <a href="mailto:kasfiyarabbinnoor.7509@gmail.com" target="blank"><i class="fas fa-hamburger"></i></a>
+    <a href="http://www.twitter.com/KasfiyaUpoma" target="blank"><i class="fab fa-twitter"      id="foi"></i></a>
+    <a href="http://www.facebook.com/Kasfiya.Upoma" target="blank"><i class="fab fa-facebook"   id="foi" ></i></a>
+    <a href="http://www.instagram.com/kasfiya.upoma" target="blank"><i class="fab fa-instagram" id="foi"  ></i></a>
+    <a href="mailto:kasfiyarabbinnoor.7509@gmail.com" target="blank"><i class="fas fa-hamburger"id="foi"  ></i></a>
 </footer>
 
 </body>

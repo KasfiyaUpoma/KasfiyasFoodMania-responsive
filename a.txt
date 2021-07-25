@@ -48,3 +48,33 @@
                 <a href="mailto:kasfiyarabbinnoor.7509@gmail.com">Order</a>
             </div>
         </div>
+
+
+
+
+
+
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn">Register</button>
+                <button type="button" class="toggle-btn">Login</button>
+            </div>
+            <form class="input-group">
+                <h2><a href="#"><i class="fab fa-google" id="fi"></i></a><a href="#"><i class="fab fa-twitter" id="fi"></i></a><a href="#"><i class="fab fa-facebook" id="fi"></i></a></h2><br>
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="tel" placeholder="Enter Your Contact Number"required>
+                <input type="date" placeholder="Enter Your Date of Birth"required>                
+                <select>
+                    <optgroup>
+                    <option>Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                    </optgroup>
+                </select>
+                <input type="password" placeholder="Enter Password"required>
+                <button class="submit-btn" type="submit">REGISTER</button>
+                <!-- <input type="checkbox" class="check-box"required><span>I agree to terms and conditiond</span> -->
+            </form>
