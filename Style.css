@@ -463,6 +463,7 @@ p{
     background-image: linear-gradient(to left, rgba(65, 105, 225, 0.651), rgba(124, 104, 238, 0.623));
     width: 512px;
     min-height: 650px;
+    position: relative;
     overflow: hidden;
 }
 .form-box h2 {
