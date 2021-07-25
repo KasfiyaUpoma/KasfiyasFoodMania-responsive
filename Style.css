@@ -536,7 +536,7 @@ select {
 }
 .toggle-btn{
     padding: 10px 36px;
-    font-size: 1rem;
+    font-size: .9rem;
     cursor: pointer;
     background: transparent;
     border: 0;
