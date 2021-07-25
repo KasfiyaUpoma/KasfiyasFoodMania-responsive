@@ -886,6 +886,9 @@ footer{
             font-size: 1.2rem;
             width: 130px;
         }
+        .cbtxt{
+            font-size: 12px;
+        }
 }
 
 @media (max-width:1000px) {
