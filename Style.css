@@ -544,7 +544,7 @@ select {
     position: relative;
     font-family: "Exo";
 }
-#btn{
+#tbtn{
     top: 0;
     left: 0;
     position: absolute;
@@ -576,7 +576,7 @@ select {
 #a{
     height: 180px;
 }
-#fi{
+#form-i{
     background: -webkit-linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
     font-size: 30px;
     color: #fee2f8;
@@ -595,19 +595,21 @@ select {
     padding-top: 380px;
 }
 
+
+/* FOOTER */
+
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
 }
-#foi{
+#foot-i{
     padding: 10px 20px;
     font-size: 1.5rem;
     color: #eee;
 }
 #log{
-    left: 480px;
     position: relative;
     padding-top: 12%;
 }
