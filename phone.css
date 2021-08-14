@@ -1,3 +1,6 @@
+nav>ul>li{
+    font-size: .6rem;
+}
 #pic img{
     width: 320px;
     height: 240px;
@@ -44,6 +47,9 @@
 }
 #Register{
     padding-top: 40px;
+}
+.form-box {
+    min-height: 580px;
 }
 .half-width h2{
     font-size: 25px;

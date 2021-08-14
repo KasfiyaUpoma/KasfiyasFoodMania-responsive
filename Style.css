@@ -961,7 +961,7 @@ footer{
         padding: 0px 18px;
        }
        nav>ul>li{
-           font-size: .9rem;
+           font-size: 1rem;
        }
        li>a:-webkit-any-link>.fa-angle-down{
         font-size: .9rem;
@@ -973,7 +973,7 @@ footer{
         padding: 0px 20px;
        }
        nav>ul>li{
-           font-size: .9rem;
+           font-size: .8rem !important;
        }
        li>a:-webkit-any-link>.fa-angle-down{
            font-size: .9rem;
